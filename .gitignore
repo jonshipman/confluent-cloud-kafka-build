@@ -1,0 +1,7 @@
+cloud.properties
+*.yml
+!docker-compose.yml
+*.mjs
+*.md
+!README.md
+*.zip

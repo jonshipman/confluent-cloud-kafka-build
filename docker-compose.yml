@@ -1,0 +1,11 @@
+version: '3.9'
+services:
+  cloud:
+    restart: 'no'
+    ports:
+      - 26635:26635
+    build:
+      context: .
+    volumes:
+      - ./cloud.properties:/root/cloud.properties
+    tty: true
